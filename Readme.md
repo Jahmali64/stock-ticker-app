@@ -1,0 +1,2 @@
+# Stock Ticker App
+This is a small web app that uses the Alpha Vantage REST API as a data source to help users enter a stock ticker symbol and search for it's related information such as it's opening and closing price for the latest trading day. This app has been designed to connect to the API and query endpoints to fetch the information about the stock ticker symbol entered by the user and then present that data in a user friendly format. 

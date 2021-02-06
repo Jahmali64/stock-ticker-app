@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+div.header-content {
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.header-content p {
+    -ms-grid-row: 2;
+    text-align: center;
+    grid-row: 2;
+}
+
+.header-content img {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    -ms-grid-column-align: start;
+    justify-self: start;
+}
+
+@media (min-width: 600px) {
+    img {
+        width: 80%;
+    }
+    h1 {
+        font-size: calc(1.5rem + 4.8vmax);
+        font-weight: 700;
+        color: #4b48a6;
+        line-height: calc(1rem + 1vmax);
+    }
+    p {
+        font-size: calc(1rem + 2.5vmax);
+        color: #a8a5ef;
+    }
+}
+
+.search-api {
+    margin: 2rem 3rem 1.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search-term {
+    margin-top: 1rem;
+    grid-gap: 0.5rem;
+    grid-column: 1/ -1;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.search-term div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(128, 128, 128, 0.552);
+    box-shadow: 0 0 2px 0 rgba(128, 128, 128, 0.552);
+    width: 100%;
+}
+
+.search-term label {
+    background: rgba(128, 128, 128, 0.224);
+    padding: 0.25rem 0.5rem;
+    width: 20.5rem;
+}
+
+.search-term input, .search-term button {
+    border: none;
+    background-color: transparent;
+}
+
+.search-term input[type=text] {
+    width: 100%;
+    padding-left: 0.5rem;
+}
+
+.search-term button {
+    border-radius: 3px;
+    background-color: #6a7a86;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.search-term{
+    display: flex;
+    margin-left: 3rem;
+}
+
+button{
+    margin-left: 0.5rem;
+}
+
+.stock {
+    width: 400px;
+    margin: 0.75rem auto;
+    -webkit-box-shadow: 0 0 2px 0  #6a79869b;
+    box-shadow: 0 0 2px 0  #6a79869b;
+    padding: 1rem;
+    color: #6a7986;
+}
+
+.stock h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.stock ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stock span {
+    font-weight: 500;
+    color: #6a7986;
+}
+
+.stock li {
+    font-weight: 200;
+    margin-right: 0.5rem;
+}
+
+.error {
+    width: 320px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 2px 0  #6a79869b;
+    box-shadow: 0 0 2px 0  #6a79869b;
+    padding: 2rem;
+    text-align: center;
+    color: #6a7986;
+}
+
+.error h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
